@@ -1,0 +1,22 @@
+{
+	"id": 141,
+	"address": "0x57ab1ec28d129707052df4df418d58a2d46d5f51",
+	"name": "Synth sUSD",
+	"buyable": true,
+	"symbol": "sUSD",
+	"decimals": 18,
+	"iconUrl": "https://dv3jj1unlp2jl.cloudfront.net/128/color/susd.png",
+	"sendable": true,
+	"dailyLimit": true,
+	"brandColor": "#1E1A31",
+	"category": "currencies",
+	"refundable": false,
+	"spotPrice": {
+		"date": 1610882103,
+		"ethValue": 0.000828415680815199,
+		"ccyValue": 1.000838,
+		"ethDayChange": 0.003311236183992039,
+		"ccyDayChange": 0.000649
+	},
+	"onchainEthPrice": 0.0008211091
+}

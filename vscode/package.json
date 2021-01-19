@@ -1,0 +1,26 @@
+{
+    "name": "contractshark",
+    "displayName": "Contract Shark",
+    "description": "Write modeling specifications for Smart Contracts",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.40.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "spec",
+            "aliases": ["EVM Spec", "spec"],
+            "extensions": [".shark",".cmi"],
+            "configuration": "./language-configuration.json"
+ 
+        }],
+        "grammars": [{
+            "language": "spec",
+            "scopeName": "source.spec",
+            "path": "./src/shark.tmLanguage.json"       
+        }]
+    }
+}

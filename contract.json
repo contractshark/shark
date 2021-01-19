@@ -1,0 +1,25 @@
+{
+    "$ContractName": {
+    "type": "object",
+    "properties": {
+      "deployOwn": {
+        "type": "boolean"
+      },
+      "contract": {
+        "$ref": "#/definitions/ethaddress"
+      }
+    },
+    "required": ["deployOwn"],
+    "if": {
+      "properties": {
+        "deployOwn": {
+          "const": false
+        }
+      }
+    },
+    "then": {
+      "required": ["contract"]
+    },
+    "additionalProperties": false
+  }
+}

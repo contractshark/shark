@@ -1,0 +1,34 @@
+{
+    "defi": {
+    "type": "object",
+    "properties": {
+      "weth": {
+        "$ref": "#/definitions/ethaddress"
+      },
+      "maker": {
+        "type": "object",
+        "properties": {
+          "tub": {
+            "$ref": "#/definitions/ethaddress"
+          }
+        }
+      },
+      "uniswap": {
+        "type": "object",
+        "properties": {
+          "factory": {
+            "$ref": "#/definitions/ethaddress"
+          }
+        }
+      },
+      "compound": {
+        "type": "object",
+        "properties": {
+          "comptroller": {
+            "$ref": "#/definitions/ethaddress"
+          }
+        }
+      }
+    }
+  }
+}
